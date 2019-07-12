@@ -1,0 +1,14 @@
+[{
+  "path": "/admin",
+  "component": "Layout",
+  "redirect": "",
+  "alwaysShow": true,
+  "name": "一级菜单",
+  "icon": "lock",
+  "children": [{
+    "path": "dict",
+    "component": "views/admin/dict/index",
+    "name": "二级菜单",
+    "icon": "lock"
+  }]
+}]
